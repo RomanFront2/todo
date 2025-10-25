@@ -11,7 +11,8 @@ export const ToDoItem = styled.li`
   display: flex;
   justify-content: space-between;
 
-  background: #fff;
+  transition: background-color .2s;
+  background-color: ${({ theme }) => theme.colors.backgroundForm};
   border-radius: 5px;
   position: relative;
   box-shadow: 0 1px 2px rgba(44, 62, 80, 0.1);
